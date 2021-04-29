@@ -1,10 +1,10 @@
 <?php
 
-namespace Eden\ContaoAjaxReloadElementBundle;
+namespace Szonn\ContaoAjaxReloadElementBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class EdenContaoAjaxReloadElementBundle extends Bundle
+class SzonnContaoAjaxReloadElementBundle extends Bundle
 {
 
 }
