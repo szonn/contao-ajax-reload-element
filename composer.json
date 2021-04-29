@@ -14,7 +14,7 @@
     "contao/core-bundle": "^4.4",
     "contao-community-alliance/composer-plugin": "^3.0",
     "contao-community-alliance/url-builder": "^1.2",
-    "symfony/http-foundation": "^4.2.12"
+    "symfony/http-foundation": "^3.3 || ^4.0"
   },
   "autoload": {
     "psr-4": {
@@ -25,7 +25,7 @@
     "contao-manager-plugin": "Szonn\\ContaoAjaxReloadElementBundle\\ContaoManager\\Plugin",
     "contao": {
       "sources": {
-        "src/Resources/public": "assets/contao_ajax_reload_element"
+        "src/Resources/public": "assets/ajax_reload_element"
       }
     }
   },
