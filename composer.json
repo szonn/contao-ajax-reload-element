@@ -18,7 +18,7 @@
     "contao/core-bundle": "^4.4",
     "contao-community-alliance/composer-plugin": "^3.0",
     "contao-community-alliance/url-builder": "^1.2",
-    "symfony/http-foundation": "4.4.20"
+    "symfony/http-foundation": "4.1.12"
   },
   "autoload": {
     "psr-4": {
