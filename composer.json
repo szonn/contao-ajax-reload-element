@@ -9,12 +9,16 @@
       "homepage": "https://szonn.com/"
     }
   ],
+  "support": {
+    "issues": "https://github.com/szonn/contao-ajax-reload-element/issues",
+    "source": "https://github.com/szonn/contao-ajax-reload-element/"
+  },
   "require": {
     "php": "^5.5 || ^7.0",
     "contao/core-bundle": "^4.4",
     "contao-community-alliance/composer-plugin": "^3.0",
     "contao-community-alliance/url-builder": "^1.2",
-    "symfony/http-foundation": "4.2.12"
+    "symfony/http-foundation": "^3.3 || ^4.0"
   },
   "autoload": {
     "psr-4": {
@@ -28,9 +32,5 @@
         "src/Resources/public": "assets/ajax_reload_element"
       }
     }
-  },
-    "support": {
-    "issues": "https://github.com/szonn/contao-ajax-reload-element/blob/main/README.md",
-    "source": "https://github.com/szonn/contao-ajax-reload-element/"
   }
 }
