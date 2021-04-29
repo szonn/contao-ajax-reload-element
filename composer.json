@@ -16,12 +16,6 @@
     "contao-community-alliance/url-builder": "^1.2",
     "symfony/http-foundation": "4.2.12"
   },
-  "require-dev": {
-        "contao/manager-plugin": "^2.0",
-        "friendsofphp/php-cs-fixer": "^2.12",
-        "phpunit/phpunit": "^5.7.26",
-        "symfony/phpunit-bridge": "^3.2"
-  },
   "autoload": {
     "psr-4": {
       "Szonn\\ContaoAjaxReloadElementBundle\\": "src/"
