@@ -1,0 +1,5 @@
+services:
+  Szonn\ContaoAjaxReloadElementBundle\EventListener\AjaxReloadElementListener:
+    arguments:
+      - '@contao.image.picture_factory'
+    public: true

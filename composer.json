@@ -1,0 +1,43 @@
+{
+  "name": "szonn/contao-ajax-reload-element",
+  "description": "SZONN AjaxReloadElement for Contao OpenSource CMS",
+  "keywords": [
+    "contao",
+    "ajax",
+    "ajaxform",
+    "ajax reload"
+  ],
+  "type": "contao-bundle",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "SZONN",
+      "email": "kontakt@szonn.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/szonn/contao-ajax-reload-element/blob/main/README.md",
+    "source": "https://github.com/szonn/contao-ajax-reload-element/"
+  },
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "contao/core-bundle": "^4.4",
+    "contao-community-alliance/composer-plugin": "^3.0",
+    "contao-community-alliance/url-builder": "^1.2",
+    "symfony/http-foundation": "^3.3 || ^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Szonn\\ContaoAjaxReloadElementBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Szonn\\ContaoAjaxReloadElementBundle\\ContaoManager\\Plugin",
+    "contao": {
+      "sources": {
+        "src/Resources/public": "assets/contao_ajax_reload_element"
+      }
+    }
+  }
+}
